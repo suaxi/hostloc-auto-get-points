@@ -55,7 +55,7 @@ def get_points(s, number_c):
             try:
                 s.get(url)
                 print("用户空间链接：" + url + " 访问成功")
-                time.sleep(4)  # 每访问一个链接后休眠4秒，以避免触发论坛的防cc机制
+                time.sleep(15)  # 每访问一个链接后休眠15秒，以避免触发论坛的防cc机制
             except Exception as e:
                 print("链接访问异常：" + str(e))
             continue
